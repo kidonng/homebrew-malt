@@ -1,6 +1,6 @@
 cask "qv2ray-beta" do
-  version "2.6.3"
-  sha256 "8554ff76b41dd4746cbd92afffeea32c990b5c9f836f9e71961656bb4bc235ae"
+  version "2.7.0-pre1"
+  sha256 "9cbe09f229384cb00f3b5f03c4b63241e6f93c3689e3e1bb190902e68c338899"
 
   url "https://github.com/Qv2ray/Qv2ray/releases/download/v#{version}/Qv2ray.v#{version}.macOS-x64.dmg"
   appcast "https://github.com/Qv2ray/Qv2ray/releases.atom#/releases/tag/(?:v|V)?([\\w.-]+)"
