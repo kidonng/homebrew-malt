@@ -158,7 +158,7 @@ def cask(name)
     @new_url = @url.gsub(@version, @new_version)
 
     begin
-      @new_sha256 = Digest::SHA256.hexdigest open(@new_url).read
+      @new_sha256 = Digest::SHA256.hexdigest URI.open(@new_url).read
       puts "Hash: #{@new_sha256}"
     rescue
       puts "Download failed"

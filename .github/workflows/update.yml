@@ -14,3 +14,4 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Update Casks
         run: ruby ./scripts/update_casks.rb
+      - run: git push
