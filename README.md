@@ -1,4 +1,4 @@
-# Kidonng Malt
+# 🍺 Malt
 
 ## How do I install these formulae?
 `brew install kidonng/malt/<formula>`
