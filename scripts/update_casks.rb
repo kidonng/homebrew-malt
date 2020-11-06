@@ -43,6 +43,7 @@ def cask(name)
         @new_version = latest
       else
         puts "Current version is the latest"
+        puts "----------------------------------------------------------------"
         @new_version = "latest"
       end
     else
@@ -175,6 +176,7 @@ def cask(name)
     system("git add #{filename}")
     system("git commit -m 'Update #{name} from #{@version} to #{@new_version}'")
     puts "Cask updated successfully"
+    puts "----------------------------------------------------------------"
   end
 end
 
