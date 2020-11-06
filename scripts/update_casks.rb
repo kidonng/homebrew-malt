@@ -2,6 +2,7 @@ require 'uri'
 require 'net/http'
 require 'digest'
 require 'open-uri'
+require 'base64'
 
 def cask(name)
   puts "Cask: #{name}"
@@ -28,6 +29,8 @@ def cask(name)
 
   def appcast(appcast)
     url, pattern = appcast.split('#')
+    pattern = Base64.decode64(pattern)
+    puts "Pattern: #{pattern}"
 
     res = Net::HTTP.get_response(URI(url))
 

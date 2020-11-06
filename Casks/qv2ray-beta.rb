@@ -3,7 +3,7 @@ cask "qv2ray-beta" do
   sha256 "9cbe09f229384cb00f3b5f03c4b63241e6f93c3689e3e1bb190902e68c338899"
 
   url "https://github.com/Qv2ray/Qv2ray/releases/download/v#{version}/Qv2ray.v#{version}.macOS-x64.dmg"
-  appcast "https://github.com/Qv2ray/Qv2ray/releases.atom#/releases/tag/(?:v|V)?([\\w.-]+)"
+  appcast "https://github.com/Qv2ray/Qv2ray/releases.atom#L3JlbGVhc2VzL3RhZy8oPzp2fFYpPyhbXHcuLV0rKQ=="
   name "Qv2ray"
   homepage "https://qv2ray.net/"
 
