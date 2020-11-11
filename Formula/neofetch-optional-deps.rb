@@ -1,4 +1,4 @@
-class NeofetchNoImagemagick < Formula
+class NeofetchOptionalDeps < Formula
   desc "Fast, highly customisable system info script"
   homepage "https://github.com/dylanaraps/neofetch"
   url "https://github.com/dylanaraps/neofetch/archive/7.1.0.tar.gz"
@@ -6,7 +6,8 @@ class NeofetchNoImagemagick < Formula
   license "MIT"
   head "https://github.com/dylanaraps/neofetch.git"
 
-  depends_on "screenresolution"
+  depends_on "imagemagick" => :recommended
+  depends_on "screenresolution" => :recommended
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
