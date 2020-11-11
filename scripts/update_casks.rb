@@ -29,6 +29,13 @@ def cask(name)
 
   def appcast(appcast)
     url, pattern = appcast.split('#')
+
+    if pattern == nil
+      puts "Auto update not defined"
+      @new_version = "latest"
+      return
+    end
+
     pattern = Base64.decode64(pattern)
     puts "Pattern: #{pattern}"
 
@@ -43,7 +50,6 @@ def cask(name)
         @new_version = latest
       else
         puts "Current version is the latest"
-        puts "----------------------------------------------------------------"
         @new_version = "latest"
       end
     else
@@ -176,8 +182,9 @@ def cask(name)
     system("git add #{filename}")
     system("git commit -m 'Update #{name} from #{@version} to #{@new_version}'")
     puts "Cask updated successfully"
-    puts "----------------------------------------------------------------"
   end
+
+  puts "----------------------------------------------------------------"
 end
 
 Dir['./Casks/*.rb'].map do |file|
