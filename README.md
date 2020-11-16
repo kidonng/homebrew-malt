@@ -1,5 +1,35 @@
 # 🍺 Malt
 
+## Formulae
+
+<details>
+<summary>Hackintosh</summary>
+
+- [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
+- [uefitool](https://github.com/LongSoft/UEFITool)
+
+</details>
+
+<details>
+<summary>Qv2ray</summary>
+
+- [qv2ray-beta](https://qv2ray.net/)
+
+</details>
+
+<details>
+<summary>Misc</summary>
+
+- [neofetch-optional-deps](https://github.com/dylanaraps/neofetch.git)
+
+  Install with `--without-imagemagick --without-screenresolution` to prevent pulling lots of dependencies.
+
+- [unsign](https://github.com/steakknife/unsign)
+
+  Useful for situations like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
+
+</details>
+
 ## How do I install these formulae?
 `brew install kidonng/malt/<formula>`
 
