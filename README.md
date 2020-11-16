@@ -5,6 +5,7 @@
 <details>
 <summary>Hackintosh</summary>
 
+- [gfxutil](https://github.com/acidanthera/gfxutil)
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
 - [uefitool](https://github.com/LongSoft/UEFITool)
 
