@@ -5,6 +5,7 @@
 <details>
 <summary>Hackintosh</summary>
 
+- [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
 - [propertree](https://github.com/corpnewt/ProperTree)
