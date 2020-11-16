@@ -8,6 +8,7 @@
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
+- [ioregistryexplorer](https://github.com/khronokernel/IORegistryClone)
 - [propertree](https://github.com/corpnewt/ProperTree)
 - [uefitool](https://github.com/LongSoft/UEFITool)
 
