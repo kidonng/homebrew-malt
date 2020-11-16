@@ -3,19 +3,20 @@
 ## Formulae
 
 <details>
-<summary>Hackintosh</summary>
+<summary><strong>Hackintosh</strong></summary>
 
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
 - [ioregistryexplorer](https://github.com/khronokernel/IORegistryClone)
+- [opencore-utils](https://github.com/acidanthera/OpenCorePkg)
 - [propertree](https://github.com/corpnewt/ProperTree)
 - [uefitool](https://github.com/LongSoft/UEFITool)
 
 </details>
 
 <details>
-<summary>Fonts</summary>
+<summary><strong>Fonts</strong></summary>
 
 - [New York](https://developer.apple.com/fonts/)
 - [SF Compact](https://developer.apple.com/fonts/)
@@ -25,14 +26,14 @@
 </details>
 
 <details>
-<summary>Qv2ray</summary>
+<summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
-- [qv2ray-beta](https://qv2ray.net/)
+- [qv2ray-beta](qv2ray-beta)
 
 </details>
 
 <details>
-<summary>Misc</summary>
+<summary><strong>Misc</strong></summary>
 
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch.git)
 
