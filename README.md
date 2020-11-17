@@ -24,6 +24,16 @@ The lists are sorted alphabetically.
 `#` Require root permissions (`sudo`)
 
 <details>
+<summary><strong>Fonts</strong></summary>
+
+- [New York](https://developer.apple.com/fonts/) `#`
+- [SF Compact](https://developer.apple.com/fonts/) `#`
+- [SF Mono](https://developer.apple.com/fonts/) `#`
+- [SF Pro](https://developer.apple.com/fonts/) `#`
+
+</details>
+
+<details>
 <summary><strong>Hackintosh</strong></summary>
 
 Including most tools used in [Dortania Guides](https://dortania.github.io/).
@@ -49,26 +59,23 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 </details>
 
 <details>
-<summary><strong>Fonts</strong></summary>
+<summary><strong>Proxies</strong></summary>
 
-- [New York](https://developer.apple.com/fonts/) `#`
-- [SF Compact](https://developer.apple.com/fonts/) `#`
-- [SF Mono](https://developer.apple.com/fonts/) `#`
-- [SF Pro](https://developer.apple.com/fonts/) `#`
+- [leaf-rust](https://github.com/eycorsican/leaf)
 
 </details>
 
 <details>
 <summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
-- [qv2ray-beta](qv2ray-beta)
+- [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 
 </details>
 
 <details>
 <summary><strong>Misc</strong></summary>
 
-- [neofetch-optional-deps](https://github.com/dylanaraps/neofetch.git)
+- [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
   Install with `--without-imagemagick --without-screenresolution` to prevent pulling lots of dependencies.
 
