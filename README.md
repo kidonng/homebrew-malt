@@ -1,9 +1,32 @@
 # 🍺 Malt
 
+> Are you a Windows user? Check out my [Scoop](https://scoop-docs.now.sh/) bucket [**Sushi**](https://github.com/kidonng/sushi).
+
+A flavored [Homebrew](https://brew.sh/) tap, providing various kinds of applications.
+
+Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/homebrew-malt/issues/new) or make a pull request!
+
+**NOTE**: Unlike official taps, some formulae are updated automatically via GitHub Actions to reduce maintenance burden, which *may* cause installation issues.
+
+## Usage
+
+```sh
+brew tap kidonng/malt
+brew install <formula>
+# Or just
+brew install kidonng/malt/<formula>
+```
+
 ## Formulae
+
+The lists are sorted alphabetically.
+
+`#` Require root permissions (`sudo`)
 
 <details>
 <summary><strong>Hackintosh</strong></summary>
+
+Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
@@ -18,10 +41,10 @@
 <details>
 <summary><strong>Fonts</strong></summary>
 
-- [New York](https://developer.apple.com/fonts/)
-- [SF Compact](https://developer.apple.com/fonts/)
-- [SF Mono](https://developer.apple.com/fonts/)
-- [SF Pro](https://developer.apple.com/fonts/)
+- [New York](https://developer.apple.com/fonts/) `#`
+- [SF Compact](https://developer.apple.com/fonts/) `#`
+- [SF Mono](https://developer.apple.com/fonts/) `#`
+- [SF Pro](https://developer.apple.com/fonts/) `#`
 
 </details>
 
@@ -41,14 +64,6 @@
 
 - [unsign](https://github.com/steakknife/unsign)
 
-  Useful for situations like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
+  Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
 </details>
-
-## How do I install these formulae?
-`brew install kidonng/malt/<formula>`
-
-Or `brew tap kidonng/malt` and then `brew install <formula>`.
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
