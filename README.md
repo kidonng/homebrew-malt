@@ -15,6 +15,16 @@
 </details>
 
 <details>
+<summary>Fonts</summary>
+
+- [New York](https://developer.apple.com/fonts/)
+- [SF Compact](https://developer.apple.com/fonts/)
+- [SF Mono](https://developer.apple.com/fonts/)
+- [SF Pro](https://developer.apple.com/fonts/)
+
+</details>
+
+<details>
 <summary>Qv2ray</summary>
 
 - [qv2ray-beta](https://qv2ray.net/)
