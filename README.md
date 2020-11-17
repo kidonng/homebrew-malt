@@ -30,6 +30,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
+- [gibmacos](https://github.com/corpnewt/gibMacOS)
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
 - [ioregistryexplorer](https://github.com/khronokernel/IORegistryClone)
 - [opencore-utils](https://github.com/acidanthera/OpenCorePkg)
