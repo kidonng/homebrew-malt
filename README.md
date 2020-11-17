@@ -28,6 +28,7 @@ The lists are sorted alphabetically.
 
 Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
+- [brigadier](https://github.com/corpnewt/brigadier)
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
 - [gibmacos](https://github.com/corpnewt/gibMacOS)
@@ -37,6 +38,9 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [lilu-and-friends](https://github.com/corpnewt/Lilu-and-Friends)
 - [mountefi](https://github.com/corpnewt/MountEFI)
 - [opencore-utils](https://github.com/acidanthera/OpenCorePkg)
+
+  Utilities bundled with OpenCore such as `macserial`.
+
 - [propertree](https://github.com/corpnewt/ProperTree)
 - [ssdttime](https://github.com/corpnewt/SSDTTime)
 - [uefitool](https://github.com/LongSoft/UEFITool)
