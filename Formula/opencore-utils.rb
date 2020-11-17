@@ -3,6 +3,7 @@ class OpencoreUtils < Formula
   homepage "https://github.com/acidanthera/OpenCorePkg"
   url "https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.3/OpenCore-0.6.3-RELEASE.zip"
   sha256 "7d606e9144b5952fc443e39df300916c0cb0f52cee40b6093381e87f6891133e"
+  license "BSD-3-Clause"
 
   def install
     prefix.install "Utilities/CreateVault"
