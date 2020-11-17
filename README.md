@@ -34,6 +34,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [ifrextract](https://github.com/LongSoft/Universal-IFR-Extractor)
 - [ioregistryexplorer](https://github.com/khronokernel/IORegistryClone)
 - [kextextractor](https://github.com/corpnewt/KextExtractor)
+- [lilu-and-friends](https://github.com/corpnewt/Lilu-and-Friends)
 - [opencore-utils](https://github.com/acidanthera/OpenCorePkg)
 - [propertree](https://github.com/corpnewt/ProperTree)
 - [ssdttime](https://github.com/corpnewt/SSDTTime)
