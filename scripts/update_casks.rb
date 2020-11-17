@@ -5,13 +5,13 @@ require 'open-uri'
 require 'base64'
 
 def cask(name)
-  puts "Cask: #{name}"
+  @name = name
 
   def version(version = nil)
     if version == nil
       return @version
     else
-      puts "Current version: #{version}"
+      puts "#{@name}: #{version}"
       @version = version
     end
   end
@@ -31,8 +31,6 @@ def cask(name)
     url, pattern = appcast.split('#')
 
     if pattern == nil
-      puts "Auto update not defined"
-      @new_version = "latest"
       return
     end
 
@@ -41,19 +39,19 @@ def cask(name)
 
     res = Net::HTTP.get_response(URI(url))
 
-    if res.code == "200"
-      match = res.body.match pattern
-      latest = match[1]
-
-      if Gem::Version.new(@version) < Gem::Version.new(latest)
-        puts "Latest version: #{latest}"
-        @new_version = latest
-      else
-        puts "Current version is the latest"
-        @new_version = "latest"
-      end
-    else
+    if res.code != "200"
       puts "Check update failed"
+      return
+    end
+
+    match = res.body.match pattern
+    latest = match[1]
+
+    if Gem::Version.new(@version) < Gem::Version.new(latest)
+      puts "Latest version: #{latest}"
+      @new_version = latest
+    else
+      puts "Current version is the latest"
     end
   end
 
@@ -164,7 +162,7 @@ def cask(name)
 
   yield
 
-  if @new_version != "latest"
+  if @new_version != nil
     @new_url = @url.gsub(@version, @new_version)
 
     begin
@@ -177,14 +175,14 @@ def cask(name)
 
   if @new_sha256 != nil
     filename = "./Casks/#{name}.rb"
-    file = File.read(filename).gsub(@version, @new_version).gsub(@sha256, @new_sha256)
+    file = File.read(filename).gsub(@version, @new_version).sub(@sha256, @new_sha256)
     File.write(filename, file)
     system("git add #{filename}")
     system("git commit -m 'Update #{name} from #{@version} to #{@new_version}'")
     puts "Cask updated successfully"
   end
 
-  puts "----------------------------------------------------------------"
+  puts "--------------------"
 end
 
 Dir['./Casks/*.rb'].map do |file|
