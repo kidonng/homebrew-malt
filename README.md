@@ -37,6 +37,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [propertree](https://github.com/corpnewt/ProperTree)
 - [ssdttime](https://github.com/corpnewt/SSDTTime)
 - [uefitool](https://github.com/LongSoft/UEFITool)
+- [usbmap](https://github.com/corpnewt/USBMap)
 
 </details>
 
