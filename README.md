@@ -48,6 +48,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [kextextractor](https://github.com/corpnewt/KextExtractor)
 - [lilu-and-friends](https://github.com/corpnewt/Lilu-and-Friends)
 - [mountefi](https://github.com/corpnewt/MountEFI)
+- [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 - [opencore-utils](https://github.com/acidanthera/OpenCorePkg)
 
   Utilities bundled with OpenCore such as `macserial`.
