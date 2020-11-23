@@ -8,7 +8,7 @@ cask "qv2ray-plugin-trojan-beta" do
   homepage "https://github.com/Qv2ray/QvPlugin-Trojan"
 
   conflicts_with cask: "kidonng/malt/qv2ray-plugin-trojan-beta"
-  depends_on cask: "qv2ray"
+  depends_on cask: "kidonng/malt/qv2ray-beta"
 
   artifact "QvPlugin-Trojan.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan.so"
 

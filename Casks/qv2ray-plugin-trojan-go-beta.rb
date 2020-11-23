@@ -11,10 +11,12 @@ cask "qv2ray-plugin-trojan-go-beta" do
   depends_on formula: "kidonng/malt/trojan-go"
   depends_on cask: "kidonng/malt/qv2ray-beta"
 
-  artifact "QvPlugin-QvPlugin-TrojanGo.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan-go.so"
+  artifact "QvPlugin-TrojanGo.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan-go.so"
 
   postflight do
-    IO.write "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugin_settings/qvtrojango_plugin.conf", <<~EOS
+    path = "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugin_settings"
+    FileUtils.mkdir_p path
+    IO.write "#{path}/qvtrojango_plugin.conf", <<~EOS
       {
         "kernelPath": "/usr/local/bin/trojan-go"
       }
