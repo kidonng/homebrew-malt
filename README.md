@@ -79,6 +79,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
 - [qv2ray-plugin-naiveproxy / qv2ray-plugin-naiveproxy-beta](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
 - [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
+- [qv2ray-plugin-ssr](https://github.com/Qv2ray/QvPlugin-SSR)
 - [qv2ray-plugin-trojan-go / qv2ray-plugin-trojan-go-beta](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
 
 </details>
