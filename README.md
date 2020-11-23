@@ -98,6 +98,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [youtube-dl-mod](https://youtube-dl.org/)
 
-  [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308).
+  [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308) and [shell completion](https://github.com/Homebrew/homebrew-core/pull/65506).
 
 </details>
