@@ -64,6 +64,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <details>
 <summary><strong>Proxies</strong></summary>
 
+- [clash](https://github.com/Dreamacro/clash)
 - [leaf-rust](https://github.com/eycorsican/leaf)
 
 </details>
