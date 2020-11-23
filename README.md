@@ -67,6 +67,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [clash](https://github.com/Dreamacro/clash)
 - [leaf-rust](https://github.com/eycorsican/leaf)
 - [naiveproxy](https://github.com/klzgrad/naiveproxy)
+- [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
 
 </details>
 
