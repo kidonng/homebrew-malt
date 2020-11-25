@@ -3,8 +3,8 @@ class YoutubeDlMod < Formula
 
   desc "Download YouTube videos from the command-line"
   homepage "https://youtube-dl.org/"
-  url "https://files.pythonhosted.org/packages/76/03/a5c749ea2ddeac51dcd0376d8519868ca710dd241c871f555765e777c5bf/youtube_dl-2020.11.21.1.tar.gz"
-  sha256 "a785c1373a3c2d0b82c54aabc4831e8e6f6ede059ec462e54526d694dd3c29ca"
+  url "https://files.pythonhosted.org/packages/79/88/05bc5ff2b03a218650523ee09f00465e95c278fe0105beda24cb756804c7/youtube_dl-2020.11.24.tar.gz"
+  sha256 "f701befffe00ae4b0d56f88ed45e1295c151c340d0011efdb1005012abc81996"
   license "Unlicense"
 
   depends_on "python@3.9"
@@ -18,8 +18,9 @@ class YoutubeDlMod < Formula
   def install
     virtualenv_install_with_resources
 
-    bash_completion.install "#{libexec}/etc/bash_completion.d/youtube-dl.bash-completion"
-    fish_completion.install "#{libexec}/etc/fish/completions/youtube-dl.fish"
+    man1.install_symlink libexec/"share/man/man1/youtube-dl.1" => "youtube-dl.1"
+    bash_completion.install libexec/"etc/bash_completion.d/youtube-dl.bash-completion"
+    fish_completion.install libexec/"etc/fish/completions/youtube-dl.fish"
   end
 
   test do
