@@ -3,6 +3,7 @@ cask "qv2ray-plugin-ssr" do
   sha256 "a4b5e922e245e857e220b009965f30ecbc1293381b769ed5542fbe852b1a2f3c"
 
   url "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v#{version}/QvSSRPlugin.v#{version}.macOS-x64.so"
+  appcast "https://github.com/Qv2ray/QvPlugin-SSR/releases.atom"
   name "Qv2ray ShadowsocksR Plugin"
   desc "Add ShadowsocksR support to Qv2ray"
   homepage "https://github.com/Qv2ray/QvPlugin-SSR"

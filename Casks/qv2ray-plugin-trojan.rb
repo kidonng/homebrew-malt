@@ -3,6 +3,7 @@ cask "qv2ray-plugin-trojan" do
   sha256 "b7d2ab3d61516d9b3046331d1f369362eb409782969779aadc986bfce5599506"
 
   url "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v#{version}/QvTrojanPlugin.v#{version}.macOS-x64.so"
+  appcast "https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom"
   name "Qv2ray Trojan Plugin"
   desc "Extend Qv2ray's Trojan functionality"
   homepage "https://github.com/Qv2ray/QvPlugin-Trojan"
