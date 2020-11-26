@@ -65,7 +65,10 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <summary><strong>Proxies</strong></summary>
 
 - [clash](https://github.com/Dreamacro/clash)
-- [leaf-rust](https://github.com/eycorsican/leaf)
+- [leaf](https://github.com/eycorsican/leaf)
+
+  Use the full name `kidonng/malt/leaf` as there's a formula of the same name in `homebrew/core`.
+
 - [naiveproxy](https://github.com/klzgrad/naiveproxy)
 - [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
 - [trojan-go](https://github.com/p4gefau1t/trojan-go)
