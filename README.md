@@ -91,6 +91,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <details>
 <summary><strong>Misc</strong></summary>
 
+- [clashx-pro](https://github.com/yichengchen/clashX)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
