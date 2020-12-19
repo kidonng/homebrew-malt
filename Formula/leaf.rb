@@ -1,3 +1,4 @@
+# Conflicts with homebrew/core/leaf
 class Leaf < Formula
   desc "Lightweight and fast proxy utility"
   homepage "https://github.com/eycorsican/leaf"
@@ -5,8 +6,6 @@ class Leaf < Formula
   version "0.2.6"
   sha256 "8e42286b141b333f0552aa0996c4614a9a8d81994ba81213e7ff82a0dadf1753"
   license "Apache-2.0"
-
-  conflicts_with "leaf", because: "leaf also ships a leaf binary"
 
   def install
     bin.install "leaf-x86_64-apple-darwin" => "leaf"

@@ -103,6 +103,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
+- [wrangler](https://github.com/cloudflare/wrangler)
 - [youtube-dl-mod](https://youtube-dl.org/)
 
   [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308) and [shell completion](https://github.com/Homebrew/homebrew-core/pull/65506).
