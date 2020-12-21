@@ -31,6 +31,8 @@ class ExaMod < Formula
     depends_on "libgit2"
   end
 
+  conflicts_with "exa", because: "both install `exa` binary"
+
   # Add config file/env var support: https://github.com/ogham/exa/pull/763
   patch do
     url "https://github.com/ogham/exa/pull/763.patch?full_index=1"
