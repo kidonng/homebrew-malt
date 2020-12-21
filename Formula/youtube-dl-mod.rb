@@ -13,8 +13,8 @@ class YoutubeDlMod < Formula
 
   # Add support for Bilibili playlist: https://github.com/ytdl-org/youtube-dl/pull/25308
   patch do
-    url "https://github.com/ytdl-org/youtube-dl/pull/25308.patch"
-    sha256 "f843b2fbd99ddbc3be2a3e8226fbebcb11982631d61423355620036aa78b9ef7"
+    url "https://github.com/ytdl-org/youtube-dl/pull/25308.patch?full_index=1"
+    sha256 "a0a6c04c49dd18fc19ede0e8658757cdfac8229141706b6f5af4eebb5b35fb81"
   end
 
   def install
