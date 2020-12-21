@@ -90,6 +90,21 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 </details>
 
 <details>
+<summary><strong>Modified</strong></summary>
+
+Modified applications for my personal use. Install with caution.
+
+- [exa-mod](https://github.com/ogham/exa)
+
+  [Add config file/env var support](https://github.com/ogham/exa/pull/763).
+
+- [youtube-dl-mod](https://youtube-dl.org/)
+
+  [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308).
+
+</details>
+
+<details>
 <summary><strong>Misc</strong></summary>
 
 - [clashx-pro](https://github.com/yichengchen/clashX)
@@ -104,8 +119,5 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
 - [wrangler](https://github.com/cloudflare/wrangler)
-- [youtube-dl-mod](https://youtube-dl.org/)
-
-  [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308) and [shell completion](https://github.com/Homebrew/homebrew-core/pull/65506).
 
 </details>
