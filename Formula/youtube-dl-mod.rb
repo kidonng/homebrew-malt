@@ -1,13 +1,15 @@
 class YoutubeDlMod < Formula
   include Language::Python::Virtualenv
 
-  desc "Download YouTube videos from the command-line"
+  desc "Download YouTube videos from the command-line (modified version)"
   homepage "https://youtube-dl.org/"
-  url "https://files.pythonhosted.org/packages/f3/81/86da9f2bcbea4d7315f05bbf4c12ef74fee5eddd64f9c5255e8f1e410bc2/youtube_dl-2020.11.26.tar.gz"
-  sha256 "3d52d2c969ec9521a086c43f809fd7545708b7ba24d7379fb123b5438ba691e1"
+  url "https://files.pythonhosted.org/packages/a9/0f/a731f1a70b9ef99d677e102a7bba535c566dd7471e4288164461a3b4843a/youtube_dl-2020.12.14.tar.gz"
+  sha256 "eaa859f15b6897bec21474b7787dc958118c8088e1f24d4ef1d58eab13188958"
   license "Unlicense"
 
   depends_on "python@3.9"
+
+  conflicts_with "youtube-dl", because: "both install `youtube-dl` binary"
 
   # Add support for Bilibili playlist: https://github.com/ytdl-org/youtube-dl/pull/25308
   patch do
