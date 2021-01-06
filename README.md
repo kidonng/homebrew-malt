@@ -40,6 +40,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [brigadier](https://github.com/corpnewt/brigadier)
 - [cpufriendfriend](https://github.com/fewtarius/CPUFriendFriend)
+- [dmidecode](https://github.com/acidanthera/dmidecode)
 - [gensmbios](https://github.com/corpnewt/GenSMBIOS)
 - [gfxutil](https://github.com/acidanthera/gfxutil)
 - [gibmacos](https://github.com/corpnewt/gibMacOS)
