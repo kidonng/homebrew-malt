@@ -1,5 +1,5 @@
 class Mountefi < Formula
-  desc "Mount EFI partitions"
+  desc "Script for mounting EFI partitions"
   homepage "https://github.com/corpnewt/MountEFI"
   url "https://github.com/corpnewt/MountEFI.git",
       revision: "81dcf9498b12ec3799ef811d8edd194ec267044c"

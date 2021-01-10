@@ -4,7 +4,7 @@ cask "font-sf-pro" do
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Font-Pro.dmg"
   name "SF Pro"
-  desc "Sans-serif system font for iOS, macOS, and tvOS"
+  desc "Sans-serif system font for Apple's OS"
   homepage "https://developer.apple.com/fonts/"
 
   pkg "San Francisco Pro.pkg"
