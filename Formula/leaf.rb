@@ -2,9 +2,9 @@
 class Leaf < Formula
   desc "Lightweight and fast proxy utility"
   homepage "https://github.com/eycorsican/leaf"
-  url "https://github.com/eycorsican/leaf/releases/download/v0.2.6/leaf-x86_64-apple-darwin.zip"
-  version "0.2.6"
-  sha256 "8e42286b141b333f0552aa0996c4614a9a8d81994ba81213e7ff82a0dadf1753"
+  version "0.2.7"
+  url "https://github.com/eycorsican/leaf/releases/download/v#{version}/leaf-x86_64-apple-darwin.zip"
+  sha256 "4403f49bad3f0ceeb10482559785f87fe561fee5458665005509b3e9d816dc99"
   license "Apache-2.0"
 
   def install
