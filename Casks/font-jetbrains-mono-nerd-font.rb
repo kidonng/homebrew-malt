@@ -1,6 +1,6 @@
 cask "font-jetbrains-mono-nerd-font" do
-  version "2.210"
-  sha256 "bcf42840a0a0dc15d55459634e4a31f0fa9b89120ea9bafd7457a565f482ca0f"
+  version "2.225"
+  sha256 "c53688d767b717ccbe2e6a0c02b946148818461282055496ba9fd053befb86be"
 
   url "https://github.com/kidonng/homebrew-malt/releases/download/binaries/font-jetbrains-mono-nerd-font-#{version}.zip"
   name "JetBrainsMono Nerd Font (JetBrains Mono)"
