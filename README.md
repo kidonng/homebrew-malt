@@ -123,6 +123,13 @@ Modified applications for my personal use. Install with caution.
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
-- [wrangler](https://github.com/cloudflare/wrangler)
+</details>
+
+<details>
+<summary><strong>Deprecated</strong></summary>
+
+These formulae have been removed from this tap because there are better/maintained alternatives in other taps.
+
+- [wrangler](https://github.com/cloudflare/wrangler): available in `core` tap as `cloudflare-wrangler`
 
 </details>
