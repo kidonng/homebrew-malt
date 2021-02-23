@@ -1,9 +1,8 @@
 class Naiveproxy < Formula
   desc "Network proxy"
   homepage "https://github.com/klzgrad/naiveproxy"
-  url "https://github.com/klzgrad/naiveproxy/releases/download/v87.0.4280.66-1/naiveproxy-v87.0.4280.66-1-osx.tar.xz"
-  version "87.0.4280.66-1"
-  sha256 "0bec0c96f9118960d57d087f63a26682b902968e2eeb96e379ae8635418f9523"
+  url "https://github.com/klzgrad/naiveproxy/releases/download/v88.0.4324.96-1/naiveproxy-v88.0.4324.96-1-osx.tar.xz"
+  sha256 "451e741c50d165617dbeb8533adfec497c5bf3906fb04ce54acb27f098a92105"
   license "BSD-3-Clause"
 
   def install
