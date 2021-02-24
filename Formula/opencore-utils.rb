@@ -19,7 +19,7 @@ class OpencoreUtils < Formula
     bin.install_symlink "#{prefix}/LegacyBoot/BootInstall_X64.tool" => "bootinstall_x64"
 
     prefix.install "Utilities/LogoutHook"
-    bin.install_symlink "#{prefix}/LogoutHook/LogoutHook.command" => "logouthook
+    bin.install_symlink "#{prefix}/LogoutHook/LogoutHook.command" => "logouthook"
 
     prefix.install "Utilities/macrecovery"
     bin.install_symlink "#{prefix}/macrecovery/macrecovery.py" => "macrecovery"
