@@ -1,10 +1,11 @@
 class ExaMod < Formula
   desc "Modern replacement for 'ls' (modified version)"
   homepage "https://the.exa.website"
+  # Remove Cargo.lock resource at version bump!
   url "https://github.com/ogham/exa/archive/v0.9.0.tar.gz"
   sha256 "96e743ffac0512a278de9ca3277183536ee8b691a46ff200ec27e28108fef783"
   license "MIT"
-  revision 1
+  revision 2
 
   livecheck do
     url :stable
@@ -12,10 +13,10 @@ class ExaMod < Formula
   end
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "3ee8e461f50fa870cd035a44ba9973e26192953e235adef9d2936f2bdab0b1d3" => :big_sur
-    sha256 "33332800316bd21da72087c8d21d2948e7b0bf678fc9d3c562c9e84c139b6de3" => :catalina
-    sha256 "507c870baae72b7961d695abbbee5029b86aee3e88037fafd08f4b55d78257b2" => :mojave
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "b5fc2d5300cbd6ab2d3c113ce011c6ac187e8e774f3d3e4d1f1592b109206d39"
+    sha256 cellar: :any_skip_relocation, big_sur:       "2ea88382cf3e9906bc27cd37f3f57c953cce9fcd686d958824ccb27093c5c8da"
+    sha256 cellar: :any_skip_relocation, catalina:      "979193384c57b8858b592d1200468cb6584ffa7df7833d6777eb8637e0ecfc97"
+    sha256 cellar: :any_skip_relocation, mojave:        "af7d2f089dc99cab221dbc57c33c443e112a843911d561588621e60378f56a46"
   end
 
   head do
@@ -33,13 +34,26 @@ class ExaMod < Formula
 
   conflicts_with "exa", because: "both install `exa` binary"
 
-  # Add config file/env var support: https://github.com/ogham/exa/pull/763
+  # Support reading arguments from config file and environment variables
+  # https://github.com/ogham/exa/pull/763
   patch do
     url "https://github.com/ogham/exa/pull/763.patch?full_index=1"
     sha256 "c8d9d39571f78bab0abf3bee91fd3c38e6a433cbd4e6cf7fa46e231af10fe4c6"
   end
 
+  # Replace stale lock file. Remove at version bump.
+  resource "Cargo.lock" do
+    url "https://raw.githubusercontent.com/ogham/exa/61c5df7c111fc7451bf6b8f0dfdcb2b6b46577d0/Cargo.lock"
+    sha256 "0bc38c483120874c42b9ada35d13530f16850274cfa8ff1defc1e55bba509698"
+  end
+
   def install
+    # Remove at version bump
+    unless build.head?
+      rm_f "Cargo.lock"
+      resource("Cargo.lock").stage buildpath
+    end
+
     system "cargo", "install", *std_cargo_args
 
     # Remove in 0.9+
