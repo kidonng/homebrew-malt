@@ -7,6 +7,11 @@ class VscodeHtmlLanguageserverBin < Formula
   sha256 "262a770d25ce82d48548b0a423c8114ead6a30d327d09ad24b3950c1386e99ef"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/vscode-html-languageserver-bin-1.4.0"
+    sha256 cellar: :any_skip_relocation, big_sur: "3f0f93ba4455a21ca22b2536ea0ae7cd5b933ba3ce9c9f9be8550071feb4cffc"
+  end
+
   depends_on "node"
 
   def install
