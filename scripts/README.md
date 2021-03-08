@@ -12,5 +12,5 @@ Scripts for building and uploading bottles.
 ## Usage
 
 ```
-source scripts/bottle.fish <formula>
+source bottle.fish <formula>
 ```

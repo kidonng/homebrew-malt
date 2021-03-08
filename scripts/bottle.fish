@@ -1,5 +1,5 @@
 set -l formula $argv[1]
-brew info --json $formula | node scripts/parse.js | read -l tap ver stat
+brew info --json $formula | node (dirname (status current-filename))/parse.js | read -l tap ver stat
 set -l repo (string replace / /homebrew- $tap)
 
 switch $stat
