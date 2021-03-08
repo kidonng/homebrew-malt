@@ -68,6 +68,17 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 </details>
 
 <details>
+<summary><strong>npm package</strong></summary>
+
+- [np](https://github.com/sindresorhus/np)
+- [typescript-languageserver-server](https://github.com/theia-ide/typescript-language-server)
+- [vercel](https://vercel.com/)
+- [vscode-css-languageserver-bin](https://github.com/vscode-langservers/vscode-css-languageserver-bin)
+- [vscode-html-languageserver-bin](https://github.com/vscode-langservers/vscode-html-languageserver-bin)
+
+</details>
+
+<details>
 <summary><strong>Proxies</strong></summary>
 
 - [clash](https://github.com/Dreamacro/clash)
@@ -87,9 +98,9 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 - [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
 - [qv2ray-plugin-naiveproxy / qv2ray-plugin-naiveproxy-beta](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
-- [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
-- [qv2ray-plugin-ssr](https://github.com/Qv2ray/QvPlugin-SSR)
-- [qv2ray-plugin-trojan](https://github.com/Qv2ray/QvPlugin-Trojan)
+- [qv2ray-plugin-ss / qv2ray-plugin-ss-beta](https://github.com/Qv2ray/QvPlugin-SS)
+- [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
+- [qv2ray-plugin-trojan / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
 - [qv2ray-plugin-trojan-go / qv2ray-plugin-trojan-go-beta](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
 
 </details>
