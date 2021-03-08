@@ -72,7 +72,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [np](https://github.com/sindresorhus/np)
 - [typescript-languageserver-server](https://github.com/theia-ide/typescript-language-server)
-- [vercel](https://vercel.com/)
 - [vscode-css-languageserver-bin](https://github.com/vscode-langservers/vscode-css-languageserver-bin)
 - [vscode-html-languageserver-bin](https://github.com/vscode-langservers/vscode-html-languageserver-bin)
 
@@ -141,6 +140,7 @@ Modified applications for my personal use. Install with caution.
 
 These formulae have been removed from this tap because there are better/maintained alternatives in other taps.
 
+- [vercel](https://vercel.com/): available in `core` tap as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `core` tap as `cloudflare-wrangler`
 
 </details>
