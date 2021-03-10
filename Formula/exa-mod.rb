@@ -6,11 +6,6 @@ class ExaMod < Formula
     revision: "13b91cced4cab012413b25c9d3e30c63548639d0"
   license "MIT"
 
-  livecheck do
-    url :stable
-    strategy :github_latest
-  end
-
   bottle do
     root_url "https://github.com/kidonng/homebrew-malt/releases/download/exa-mod-unstable-2021-01-14"
     sha256 cellar: :any_skip_relocation, big_sur: "b0b71a69498aa413aaeaf2d6b05f95f46bf697c9870a9dff07dbfb310371e949"
