@@ -132,6 +132,8 @@ Modified applications for my personal use. Install with caution.
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
+- [viu](https://github.com/atanunq/viu)
+
 </details>
 
 <details>
