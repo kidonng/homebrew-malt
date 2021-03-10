@@ -80,7 +80,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <details>
 <summary><strong>Proxies</strong></summary>
 
-- [clash](https://github.com/Dreamacro/clash)
 - [leaf](https://github.com/eycorsican/leaf)
 
   Use the full name `kidonng/malt/leaf` as there's a formula of the same name in `homebrew/core`.
@@ -140,7 +139,8 @@ Modified applications for my personal use. Install with caution.
 
 These formulae have been removed from this tap because there are better/maintained alternatives in other taps.
 
-- [vercel](https://vercel.com/): available in `core` tap as `vercel-cli`
-- [wrangler](https://github.com/cloudflare/wrangler): available in `core` tap as `cloudflare-wrangler`
+- [clash](https://github.com/Dreamacro/clash): available in `homebrew/core`
+- [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
+- [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
 
 </details>
