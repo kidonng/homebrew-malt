@@ -3,7 +3,6 @@ cask "qv2ray-plugin-naiveproxy" do
   sha256 "0627ec0b81b86651bae58e0df0c82db3b48a235e1d7e6d6912a9a32f9be14ac7"
 
   url "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v#{version}/QvPlugin-NaiveProxy.v#{version}.macOS-x64.so"
-  appcast "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases.atom"
   name "Qv2ray NaiveProxy Plugin"
   desc "Add NaiveProxy support to Qv2ray"
   homepage "https://github.com/Qv2ray/QvPlugin-NaiveProxy"
