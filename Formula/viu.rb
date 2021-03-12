@@ -6,6 +6,11 @@ class Viu < Formula
   license "MIT"
   head "https://github.com/atanunq/viu.git"
 
+  bottle do
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/viu-1.3.0"
+    sha256 cellar: :any_skip_relocation, big_sur: "8075fa8f0f099544b962ec14db9dee19324cc7db8d466412e6fbdd67546b3f29"
+  end
+
   depends_on "rust" => :build
 
   def install
