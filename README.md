@@ -121,7 +121,6 @@ Modified applications for my personal use. Install with caution.
 <details>
 <summary><strong>Misc</strong></summary>
 
-- [clashx-pro](https://github.com/yichengchen/clashX)
 - [osu](https://osu.ppy.sh/)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
@@ -142,6 +141,7 @@ Modified applications for my personal use. Install with caution.
 These formulae have been removed from this tap because there are better/maintained alternatives in other taps.
 
 - [clash](https://github.com/Dreamacro/clash): available in `homebrew/core`
+- [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
 - [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
 
