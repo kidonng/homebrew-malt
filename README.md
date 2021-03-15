@@ -122,12 +122,13 @@ Modified applications for my personal use. Install with caution.
 <summary><strong>Misc</strong></summary>
 
 - [iconsur](https://github.com/rikumi/iconsur)
-- [osu](https://osu.ppy.sh/)
+- [lsix](https://github.com/hackerb9/lsix)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
   Install with `--without-imagemagick --without-screenresolution` to prevent pulling lots of dependencies.
 
+- [osu](https://osu.ppy.sh/)
 - [unsign](https://github.com/steakknife/unsign)
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
