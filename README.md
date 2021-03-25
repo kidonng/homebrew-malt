@@ -110,11 +110,7 @@ Modified applications for my personal use. Install with caution.
 
 - [exa-mod](https://github.com/ogham/exa)
 
-  [Add config file/env var support](https://github.com/ogham/exa/pull/763).
-
-- [youtube-dl-mod](https://youtube-dl.org/)
-
-  [Add support for Bilibili playlist](https://github.com/ytdl-org/youtube-dl/pull/25308).
+  [Support reading arguments from config file and environment variables](https://github.com/ogham/exa/pull/763).
 
 </details>
 
@@ -134,6 +130,7 @@ Modified applications for my personal use. Install with caution.
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
 - [viu](https://github.com/atanunq/viu)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 </details>
 
@@ -146,5 +143,6 @@ These formulae have been removed from this tap because there are better/maintain
 - [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
 - [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
+- [youtube-dl-mod](https://youtube-dl.org/): use `yt-dlp` instead
 
 </details>
