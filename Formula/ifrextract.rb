@@ -1,9 +1,9 @@
 class Ifrextract < Formula
   desc "Extract internal forms represenation from EFI and UEFI modules"
   homepage "https://github.com/LongSoft/Universal-IFR-Extractor"
-  url "https://github.com/LongSoft/Universal-IFR-Extractor/releases/download/v0.3.6/ifrextract_v0.3.6.osx.zip"
-  version "0.3.6"
-  sha256 "9255e034efa54fed1c5f379d1f5ba34128a87f55794fb7a70e6f0ee562b4cafa"
+  url "https://github.com/LongSoft/Universal-IFR-Extractor/releases/download/0.3.7/ifrextract_v0.3.7.mac.zip"
+  version "0.3.7"
+  sha256 "f182844333bbe997c997c0869e139d3864775d6c9fa23f8295717679860575f7"
   license "GPL-3.0-only"
 
   def install
