@@ -8,6 +8,7 @@ class Naiveproxy < Formula
     url "https://github.com/klzgrad/naiveproxy/releases/download/v89.0.4389.72-1/naiveproxy-v89.0.4389.72-1-mac-arm64.tar.xz"
     sha256 "65889d4277a1226759398c71c4b0c3881ca46ac8723351559e72416fbd15c8c2"
   end
+  version "89.0.4389.72-1"
   license "BSD-3-Clause"
 
   def install
