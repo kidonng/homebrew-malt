@@ -7,6 +7,11 @@ class YtDlp < Formula
   sha256 "7e03a7e33f4494062914d1a1c87643cd2a1ed9e47bbe55def2300c5189169d84"
   license "Unlicense"
 
+  bottle do
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/yt-dlp-2021.3.24.1"
+    sha256 cellar: :any_skip_relocation, big_sur: "ba634900b4ec92b7157f93b9eb7163d7b092c85f5d8c8dcf4b0de47f1befbd04"
+  end
+
   depends_on "python@3.9"
 
   def install
