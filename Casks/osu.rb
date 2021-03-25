@@ -1,6 +1,6 @@
 cask "osu" do
-  version "2020.1212.0"
-  sha256 "c0ad8286d49dcd18e12925e0888e87a9721c304b5ca8c4b222b1d52480734d9c"
+  version "2021.323.0"
+  sha256 "ac4fae317566203fc41446f9d3ab3b2434161450dfdce7bde31cc29b91ad0b11"
 
   url "https://github.com/ppy/osu/releases/download/#{version}/osu.app.zip"
   name "osu!"
