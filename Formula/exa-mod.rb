@@ -1,9 +1,9 @@
 class ExaMod < Formula
   desc "Modern replacement for 'ls' (modified version)"
   homepage "https://the.exa.website"
-  version "unstable-2021-03-29"
+  version "unstable-2021-03-30"
   url "https://github.com/ogham/exa.git",
-    revision: "3c691699938a0bce58296668fb0551995743b6f5"
+    revision: "f27fb2ab7ac6306ebcb782110fa8c6defbe3f225"
   license "MIT"
 
   bottle do
