@@ -7,8 +7,8 @@ class ExaMod < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/kidonng/homebrew-malt/releases/download/exa-mod-unstable-2021-03-30"
-    sha256 cellar: :any_skip_relocation, big_sur: "94a1743b3f84778e67f2a412555912f204e230d6eb575f955a861564dd6da9d0"
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/exa-mod-unstable-2021-04-01"
+    sha256 cellar: :any_skip_relocation, big_sur: "3d819d57ba3457a44be12e8bc04f3023e637a213f0982d14b739a3b11e47b8b8"
   end
 
   depends_on "pandoc" => :build
