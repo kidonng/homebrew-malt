@@ -1,9 +1,9 @@
 class ExaMod < Formula
   desc "Modern replacement for 'ls' (modified version)"
   homepage "https://the.exa.website"
-  version "unstable-2021-03-30"
+  version "unstable-2021-04-01"
   url "https://github.com/ogham/exa.git",
-    revision: "f27fb2ab7ac6306ebcb782110fa8c6defbe3f225"
+    revision: "004589d07924030caf915d5f774997cdc892d7fb"
   license "MIT"
 
   bottle do
@@ -25,8 +25,8 @@ class ExaMod < Formula
   # Support reading arguments from config file and environment variables
   # https://github.com/ogham/exa/pull/763
   patch do
-    url "https://github.com/ogham/exa/pull/763.patch?full_index=1"
-    sha256 "c8d9d39571f78bab0abf3bee91fd3c38e6a433cbd4e6cf7fa46e231af10fe4c6"
+    url "https://github.com/kidonng/cherry/raw/master/patches/exa.patch"
+    sha256 "733de543ac1336660de1caf8fc51cf7f796acd49779b3b0d2900880ffd48ce2f"
   end
 
   def install
