@@ -104,17 +104,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 </details>
 
 <details>
-<summary><strong>Modified</strong></summary>
-
-Modified applications for my personal use. Install with caution.
-
-- [exa-mod](https://github.com/ogham/exa)
-
-  [Support reading arguments from config file and environment variables](https://github.com/ogham/exa/pull/763).
-
-</details>
-
-<details>
 <summary><strong>Misc</strong></summary>
 
 - [iconsur](https://github.com/rikumi/iconsur)
@@ -141,6 +130,7 @@ These formulae have been removed from this tap because there are better/maintain
 
 - [clash](https://github.com/Dreamacro/clash): available in `homebrew/core`
 - [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
+- [exa-mod](https://github.com/ogham/exa): use `exa` instead
 - [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
 - [youtube-dl-mod](https://youtube-dl.org/): use `yt-dlp` instead
