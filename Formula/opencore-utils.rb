@@ -1,7 +1,7 @@
 class OpencoreUtils < Formula
   homepage "https://github.com/acidanthera/OpenCorePkg"
-  url "https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.7/OpenCore-0.6.7-RELEASE.zip"
-  sha256 "992053fdd795a8f398af0eee34b8a1977ddc181d1a11a00210dbef3bf8d30f6f"
+  url "https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.8/OpenCore-0.6.8-RELEASE.zip"
+  sha256 "7347cb3decd9026d5a3d6156987abe661f7673b713ec41b0c325a2ab9eea062f"
   license "BSD-3-Clause"
 
   def install
