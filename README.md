@@ -106,6 +106,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <details>
 <summary><strong>Misc</strong></summary>
 
+- [vimac](https://github.com/dexterleng/vimac)
 - [iconsur](https://github.com/rikumi/iconsur)
 - [lsix](https://github.com/hackerb9/lsix)
 - [nali](https://github.com/zu1k/nali)
