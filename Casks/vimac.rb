@@ -1,8 +1,8 @@
 cask "vimac" do
-  version "0.3.17"
-  sha256 "7affa34c660013f81300f7bf9d2abfd28c551c89d534fe9e1b7084561ceba0da"
+  version "0.3.18"
+  sha256 "3399746e79b4583b84f4f73c5d8f40859f92de77b41c17eba1b5c8b4bb512ed8"
 
-  url "https://api.xuann.wang/api/app-center?owner=dexterleng&app=vimac&dist=sparkle&release=28"
+  url "https://api.xuann.wang/api/app-center?owner=dexterleng&app=vimac&dist=sparkle&release=30"
   name "Vimac"
   desc "Keyboard-driven navigation and control tool"
   homepage "https://vimacapp.com/"
