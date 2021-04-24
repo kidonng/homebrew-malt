@@ -130,7 +130,7 @@ These formulae have been removed from this tap because there are better/maintain
 
 - [clash](https://github.com/Dreamacro/clash): available in `homebrew/core`
 - [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
-- [exa-mod](https://github.com/ogham/exa): use `exa` instead
+- [exa-mod](https://github.com/ogham/exa): available in `homebrew/core` as `exa`
 - [osu](https://osu.ppy.sh/): available in `homebrew/cask-versions` as `osu-development`
 - [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
