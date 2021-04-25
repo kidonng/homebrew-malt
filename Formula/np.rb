@@ -3,8 +3,8 @@ class Np < Formula
 
   desc "A better npm publish"
   homepage "https://github.com/sindresorhus/np"
-  url "https://registry.npmjs.org/np/-/np-7.4.0.tgz"
-  sha256 "7ad8b030ae0d0a154b8ea3a50aa94cb645aa55a946cb2188408423a6a27b7506"
+  url "https://registry.npmjs.org/np/-/np-7.5.0.tgz"
+  sha256 "954a43c5cee77fbd4397f75f2e22843c1c5d6e6b4aac277b0b210628cb4f30fb"
   license "MIT"
 
   bottle do
