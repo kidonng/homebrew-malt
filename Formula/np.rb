@@ -8,8 +8,8 @@ class Np < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/kidonng/homebrew-malt/releases/download/np-7.4.0"
-    sha256 cellar: :any_skip_relocation, big_sur: "21f804fbdc3bcb86004dfd71703d38f5947dc9d87b44509f0e61be98bcacc16a"
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/np-7.5.0"
+    sha256 cellar: :any_skip_relocation, big_sur: "e5d1cec31f8ad04470ca7ecc58ee2c17bd74e467a46b2d00b9b4665a4fe538bd"
   end
 
   depends_on "node"
