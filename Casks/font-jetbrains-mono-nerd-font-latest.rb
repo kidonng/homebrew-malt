@@ -1,4 +1,4 @@
-cask "font-jetbrains-mono-nerd-font" do
+cask "font-jetbrains-mono-nerd-font-latest" do
   version "2.225"
   sha256 "c53688d767b717ccbe2e6a0c02b946148818461282055496ba9fd053befb86be"
 

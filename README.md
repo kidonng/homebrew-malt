@@ -28,7 +28,7 @@ The lists are sorted alphabetically.
 
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
-  Based on JetBrains Mono 2.210 from https://github.com/ryanoasis/nerd-fonts/pull/540.
+  Based on JetBrains Mono 2.225 from https://github.com/ryanoasis/nerd-fonts/pull/572.
 
 - [New York](https://developer.apple.com/fonts/) `#`
 - [SF Compact](https://developer.apple.com/fonts/) `#`
