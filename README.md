@@ -31,6 +31,7 @@ The lists are sorted alphabetically.
   Based on JetBrains Mono 2.225 from https://github.com/ryanoasis/nerd-fonts/pull/572.
 
 - [New York](https://developer.apple.com/fonts/) `#`
+- [Nonicons](https://github.com/yamatsum/nonicons)
 - [SF Compact](https://developer.apple.com/fonts/) `#`
 - [SF Mono](https://developer.apple.com/fonts/) `#`
 - [SF Pro](https://developer.apple.com/fonts/) `#`
