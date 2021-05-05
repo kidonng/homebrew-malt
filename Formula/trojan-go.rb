@@ -1,9 +1,14 @@
 class TrojanGo < Formula
   desc "Network proxy"
   homepage "https://github.com/p4gefau1t/trojan-go"
-  url "https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.3/trojan-go-darwin-amd64.zip"
-  version "0.8.3"
-  sha256 "67b18d4e555d37a09a91c2c40d33ef987201b68ffd9fe7ee1c2d137fd44f0e76"
+  if Hardware::CPU.intel?
+    url "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.1/trojan-go-darwin-amd64.zip"
+    sha256 "18b383c561229b6db83b38ca82baf8652a358122388c3f96536f716839e560b9"
+  else
+    url "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.1/trojan-go-darwin-arm64.zip"
+    sha256 "0dc9c28e7f46a60736e67f28a96c1461e5572340066a55de980687076b518972"
+  end
+  version "0.9.1"
   license "GPL-3.0-only"
 
   def install
