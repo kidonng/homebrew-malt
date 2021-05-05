@@ -1,10 +1,12 @@
 class OpencoreUtils < Formula
   homepage "https://github.com/acidanthera/OpenCorePkg"
-  url "https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.8/OpenCore-0.6.8-RELEASE.zip"
-  sha256 "7347cb3decd9026d5a3d6156987abe661f7673b713ec41b0c325a2ab9eea062f"
+  url "https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.9/OpenCore-0.6.9-RELEASE.zip"
+  sha256 "2a19d9fcaa6e471fae5e49d20d88dfc8e3e2b277c78c0bb4942f3a52e1619878"
   license "BSD-3-Clause"
 
   def install
+    bin.install "Utilities/ACPIe/ACPIe" => "ACPIe"
+
     bin.install "Utilities/acdtinfo/acdtinfo" => "acdtinfo"
 
     prefix.install "Utilities/CreateVault"
