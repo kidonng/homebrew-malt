@@ -105,7 +105,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [vimac](https://github.com/dexterleng/vimac)
 - [iconsur](https://github.com/rikumi/iconsur)
-- [lsix](https://github.com/hackerb9/lsix)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
@@ -129,6 +128,7 @@ These formulae have been removed from this tap because there are better/maintain
 - [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
 - [exa-mod](https://github.com/ogham/exa): available in `homebrew/core` as `exa`
 - [leaf](https://github.com/eycorsican/leaf): available in `homebrew/core` as `leaf-proxy`
+- [lsix](https://github.com/hackerb9/lsix): available in `homebrew/core`
 - [osu](https://osu.ppy.sh/): available in `homebrew/cask-versions` as `osu-development`
 - [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
