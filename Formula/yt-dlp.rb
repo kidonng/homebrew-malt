@@ -3,8 +3,8 @@ class YtDlp < Formula
 
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/yt-dlp/yt-dlp"
-  url "https://files.pythonhosted.org/packages/52/d2/019f4d877c08b51d9e157d3574c0eb5771e715741e80e477314131e97a54/yt-dlp-2021.4.22.tar.gz"
-  sha256 "7cc08a1843f7b6511d8c8fc73a6e53f3ac78a781f48431d12f898c1af0af9560"
+  url "https://files.pythonhosted.org/packages/c7/18/db80ea62ca0d36d8e66cb7e334d2c1576cb9ff09eb86fe7c0c4ce680a6e2/yt-dlp-2021.5.11.tar.gz"
+  sha256 "9bbaac7a496f83821056d3545204adc7cd0153e04775b6491b430f48b1fc32df"
   license "Unlicense"
 
   bottle do
@@ -13,6 +13,7 @@ class YtDlp < Formula
   end
 
   depends_on "python@3.9"
+  depends_on "ffmpeg" => :recommended
 
   def install
     virtualenv_install_with_resources
