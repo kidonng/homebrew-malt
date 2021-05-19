@@ -8,8 +8,8 @@ class YtDlp < Formula
   license "Unlicense"
 
   bottle do
-    root_url "https://github.com/kidonng/homebrew-malt/releases/download/yt-dlp-2021.4.22"
-    sha256 cellar: :any_skip_relocation, big_sur: "4d6aaf75be7a3e30d95a30868a225ab4713d95e13ca6d55ef6aa2bd49bce4edf"
+    root_url "https://github.com/kidonng/homebrew-malt/releases/download/yt-dlp-2021.5.11"
+    sha256 cellar: :any_skip_relocation, big_sur: "1cf7d375b12345eea8feeb83fd35fcd0828369e7422f46e27c54b4a29c15c47b"
   end
 
   depends_on "python@3.9"
