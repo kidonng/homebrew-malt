@@ -1,22 +1,40 @@
 set -l formula $argv[1]
-brew info --json $formula | node (dirname (status current-filename))/parse.js | read -l tap ver stat
+set -l info (brew info --json $formula | string trim | string join "")
+set -l tap (string match -r '"tap": "([\w/]+)"' $info)[2]
+set -l ver (string match -r '"installed": \[\{"version": "([\d._]+)"' $info)[2]
+set -l stable (string match -r '"versions": \{"stable": "([\d.]+)"' $info)[2]
+set -l rev (string match -r '"revision": (\d+)' $info)[2]
 set -l repo (string replace / /homebrew- $tap)
 
-switch $stat
-  case is-bottle
-    echo $formula is installed as a bottle, good to go
-  case not-bottle
-    echo $formula is not installed as a bottle, please uninstall it first
+if test -n "$rev"
+    set stable $stable"_"$rev
+end
+
+if test -z "$ver"
+    echo $formula is not installed! >&2
     exit 1
-  case not-installed
-    echo $formula is not installed, installing
-    brew install --build-bottle $formula
+end
+
+string match -q '*"built_as_bottle": true*' $info
+if test $status != 0
+    echo $formula is not built as bottle! >&2
+    exit 1
+end
+
+if test "$ver" != "$stable"
+    echo Current version "($ver)" of $formula is not the latest "($stable)"! >&2
+    exit 1
 end
 
 set -l tag $formula-$ver
 set -l root https://github.com/$repo/releases/download/$tag
 
-pushd (mktemp -d)
+echo Bottling $formula "($ver)" from $tap
+echo Bottle root: $root
+
+set -l tmp (mktemp -d)
+pushd $tmp
+
 brew bottle --json --root-url $root $formula
 brew bottle --merge --write *.json
 
@@ -31,4 +49,4 @@ mv $old_name $new_name
 gh release create -R $repo -n "" $tag $new_name
 
 popd
-
+rm -r $tmp

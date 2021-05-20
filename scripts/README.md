@@ -1,11 +1,10 @@
 # Scripts
 
-Scripts for building and uploading bottles.
+Scripts for building and uploading bottles to GitHub releases.
 
 ## Requirements
 
 - `fish`
-- `node`
 - `gh`
 - `git`
 
