@@ -1,11 +1,11 @@
 class Cpufriendfriend < Formula
   desc "Inspect frequency vectors of X86PlatformPlugin"
-  homepage "https://github.com/fewtarius/CPUFriendFriend"
-  url "https://github.com/fewtarius/CPUFriendFriend.git",
-      revision: "ae123c0aeb4595ce102da5355a85a690c3ddd03f"
-  version "ae123c0"
+  homepage "https://github.com/corpnewt/CPUFriendFriend"
+  url "https://github.com/corpnewt/CPUFriendFriend.git",
+      revision: "c6e67c19999ff6714a2f7174bd119d0d3ba42ab6"
+  version "c6e67c1"
   license "MIT"
-  head "https://github.com/fewtarius/CPUFriendFriend.git"
+  head "https://github.com/corpnewt/CPUFriendFriend.git"
 
   def install
     bin.install "Scripts"
