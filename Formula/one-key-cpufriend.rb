@@ -4,7 +4,6 @@ class OneKeyCpufriend < Formula
   url "https://github.com/stevezhengshiqi/one-key-cpufriend.git",
       revision: "b47805927d127871a9ea8115a53810d517d481ba"
   version "b478059"
-  sha256 "39aa5b0cd89c2bf68d7a37c53e5f597851f4f9e5dd7145d79cf5226fdaa35d15"
   head "https://github.com/stevezhengshiqi/one-key-cpufriend"
 
   def install
