@@ -105,6 +105,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [vimac](https://github.com/dexterleng/vimac)
 - [iconsur](https://github.com/rikumi/iconsur)
+- [macforge](https://www.macenhance.com/macforge)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
