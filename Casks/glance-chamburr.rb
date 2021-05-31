@@ -18,6 +18,8 @@ cask "glance-chamburr" do
       <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>com.apple.security.app-sandbox</key><true/><key>com.apple.security.application-groups</key><array><string>group.com.chamburr.glance</string></array><key>com.apple.security.files.user-selected.read-only</key><true/></dict></plist>
     EOS
     system "codesign", "-s", "-", "-f", "--deep", "--entitlements", entitlements, "#{appdir}/Glance.app"
+
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{appdir}/Glance.app"
   end
 
   zap trash: [
@@ -27,10 +29,4 @@ cask "glance-chamburr" do
     "~/Library/Containers/com.samuelmeuli.Glance.QLPlugin",
     "~/Library/Group Containers/group.com.samuelmeuli.glance",
   ]
-
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine #{appdir}/Glance.app
-  EOS
 end

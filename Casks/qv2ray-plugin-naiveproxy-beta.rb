@@ -21,13 +21,9 @@ cask "qv2ray-plugin-naiveproxy-beta" do
         "kernelPath": "/usr/local/bin/naive"
       }
     EOS
+
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/naiveproxy.so"
   end
 
   zap trash: "~/Library/Preferences/qv2ray/plugin_settings/qvplugin_naiveproxy.conf"
-
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine ~/Library/Preferences/qv2ray/plugins/naiveproxy.so
-  EOS
 end

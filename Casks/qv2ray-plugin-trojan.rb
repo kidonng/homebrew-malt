@@ -12,9 +12,7 @@ cask "qv2ray-plugin-trojan" do
 
   artifact "QvTrojanPlugin.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan.so"
 
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine ~/Library/Preferences/qv2ray/plugins/trojan.so
-  EOS
+  postflight do
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan.so"
+  end
 end

@@ -12,9 +12,7 @@ cask "qv2ray-plugin-command-beta" do
 
   artifact "QvPlugin-Command.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/command.so"
 
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine ~/Library/Preferences/qv2ray/plugins/command.so
-  EOS
+  postflight do
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/command.so"
+  end
 end

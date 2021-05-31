@@ -21,13 +21,9 @@ cask "qv2ray-plugin-trojan-go-beta" do
         "kernelPath": "/usr/local/bin/trojan-go"
       }
     EOS
+
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/trojan-go.so"
   end
 
   zap trash: "~/Library/Preferences/qv2ray/plugin_settings/qvtrojango_plugin.conf"
-
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine ~/Library/Preferences/qv2ray/plugins/trojan-go.so
-  EOS
 end

@@ -12,9 +12,7 @@ cask "qv2ray-plugin-ssr-beta" do
 
   artifact "QvPlugin-SSR.v#{version}.macOS-x64.so", target: "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/ssr.so"
 
-  caveats <<~EOS
-    Run the following command to allow the plugin to activate:
-
-    xattr -d -r com.apple.quarantine ~/Library/Preferences/qv2ray/plugins/ssr.so
-  EOS
+  postflight do
+    system "xattr", "-d", "-r", "com.apple.quarantine", "#{ENV["HOME"]}/Library/Preferences/qv2ray/plugins/ssr.so"
+  end
 end
