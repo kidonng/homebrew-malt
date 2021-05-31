@@ -58,6 +58,8 @@ The lists are sorted alphabetically.
 
 Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
+**NOTE** Most tools are scripts which doesn't have a fixed version, so using `--head` to install the latest version is recommended.
+
 - [brigadier](https://github.com/corpnewt/brigadier)
 - [cpufriendfriend](https://github.com/fewtarius/CPUFriendFriend)
 - [dmidecode](https://github.com/acidanthera/dmidecode)
@@ -122,7 +124,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
-  Install with `--without-imagemagick --without-screenresolution` to prevent pulling lots of dependencies.
+  Useful if you don't want to install `imagemagick` (which has lots of dependencies) or `screenresolution` (which seems to be unnecessary now).
 
 - [unsign](https://github.com/steakknife/unsign)
 
