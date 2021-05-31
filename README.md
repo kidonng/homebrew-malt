@@ -23,6 +23,21 @@ The lists are sorted alphabetically.
 
 `#` Require root permissions (`sudo`)
 
+`!` Require disabled System Integrity Protection (SIP)
+
+<details>
+<summary><strong>Applications</strong></summary>
+
+- [glance-chamburr](https://github.com/chamburr/glance)
+
+  Fork of discontinued [glance](https://formulae.brew.sh/cask/glance).
+
+- [macforge](https://www.macenhance.com/macforge) `!`
+- [vimac](https://github.com/dexterleng/vimac)
+
+</details>
+
+
 <details>
 <summary><strong>Fonts</strong></summary>
 
@@ -103,9 +118,7 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <details>
 <summary><strong>Misc</strong></summary>
 
-- [vimac](https://github.com/dexterleng/vimac)
 - [iconsur](https://github.com/rikumi/iconsur)
-- [macforge](https://www.macenhance.com/macforge)
 - [nali](https://github.com/zu1k/nali)
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
 
