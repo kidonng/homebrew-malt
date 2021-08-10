@@ -6,8 +6,6 @@ A flavored [Homebrew](https://brew.sh/) tap, providing various kinds of applicat
 
 Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/homebrew-malt/issues/new) or make a pull request!
 
-<!-- **NOTE**: Unlike official taps, some formulae are updated automatically via GitHub Actions to reduce maintenance burden, which _may_ cause installation issues. -->
-
 ## Usage
 
 ```sh
@@ -30,7 +28,7 @@ The lists are sorted alphabetically.
 
 - [glance-chamburr](https://github.com/chamburr/glance)
 
-  Fork of discontinued [glance](https://formulae.brew.sh/cask/glance).
+  A fork of discontinued [glance](https://formulae.brew.sh/cask/glance).
 
 - [macforge](https://www.macenhance.com/macforge) `!`
 - [vimac](https://github.com/dexterleng/vimac)
@@ -122,10 +120,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [iconsur](https://github.com/rikumi/iconsur)
 - [nali](https://github.com/zu1k/nali)
-- [neofetch-optional-deps](https://github.com/dylanaraps/neofetch)
-
-  Useful if you don't want to install `imagemagick` (which has lots of dependencies) or `screenresolution` (which seems to be unnecessary now).
-
 - [unsign](https://github.com/steakknife/unsign)
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
@@ -140,14 +134,15 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 These formulae have been removed from this tap because there are better/maintained alternatives in other taps.
 
-- [clash](https://github.com/Dreamacro/clash): available in `homebrew/core`
-- [clashx-pro](https://github.com/yichengchen/clashX): available in `homebrew/cask-versions`
-- [exa-mod](https://github.com/ogham/exa): available in `homebrew/core` as `exa`
-- [leaf](https://github.com/eycorsican/leaf): available in `homebrew/core` as `leaf-proxy`
-- [lsix](https://github.com/hackerb9/lsix): available in `homebrew/core`
-- [osu](https://osu.ppy.sh/): available in `homebrew/cask-versions` as `osu-development`
-- [vercel](https://vercel.com/): available in `homebrew/core` as `vercel-cli`
-- [wrangler](https://github.com/cloudflare/wrangler): available in `homebrew/core` as `cloudflare-wrangler`
-- [youtube-dl-mod](https://youtube-dl.org/): use `yt-dlp` instead
+- [clash](https://github.com/Dreamacro/clash): use `homebrew/core/clash`
+- [clashx-pro](https://github.com/yichengchen/clashX): use `homebrew/cask-versions/clashx-pro`
+- [exa-mod](https://github.com/ogham/exa): use `homebrew/core/exa`
+- [leaf](https://github.com/eycorsican/leaf): use `homebrew/core/leaf-proxy`
+- [lsix](https://github.com/hackerb9/lsix): use `homebrew/core/lsix`
+- [neofetch-optional-deps](https://github.com/dylanaraps/neofetch): use `homebrew/core/neofetch`
+- [osu](https://osu.ppy.sh/): use `homebrew/cask-versions/osu-development`
+- [vercel](https://vercel.com/): use `homebrew/core/vercel-cli`
+- [wrangler](https://github.com/cloudflare/wrangler): use `homebrew/core/cloudflare-wrangler`
+- [youtube-dl-mod](https://youtube-dl.org/): use `kidonng/malt/yt-dlp`
 
 </details>
