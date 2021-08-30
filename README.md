@@ -125,7 +125,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
 - [viu](https://github.com/atanunq/viu)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 </details>
 
@@ -144,5 +143,6 @@ These formulae have been removed from this tap because there are better/maintain
 - [vercel](https://vercel.com/): use `homebrew/core/vercel-cli`
 - [wrangler](https://github.com/cloudflare/wrangler): use `homebrew/core/cloudflare-wrangler`
 - [youtube-dl-mod](https://youtube-dl.org/): use `kidonng/malt/yt-dlp`
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp): use `homebrew/core/yt-dlp`
 
 </details>
