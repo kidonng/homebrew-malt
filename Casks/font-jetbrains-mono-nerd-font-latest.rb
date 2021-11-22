@@ -1,6 +1,6 @@
 cask "font-jetbrains-mono-nerd-font-latest" do
-  version "2.225"
-  sha256 "c53688d767b717ccbe2e6a0c02b946148818461282055496ba9fd053befb86be"
+  version "2.242"
+  sha256 "bf8a78e02df7e8a5a6ffa6d29cbb39773513bbd126ee46c8f5edb0f267d6a1e1"
 
   url "https://github.com/kidonng/homebrew-malt/releases/download/binaries/font-jetbrains-mono-nerd-font-#{version}.zip"
   name "JetBrainsMono Nerd Font (JetBrains Mono)"
@@ -18,6 +18,8 @@ cask "font-jetbrains-mono-nerd-font-latest" do
   font "JetBrains Mono Medium Italic Nerd Font Complete.ttf"
   font "JetBrains Mono Regular Nerd Font Complete.ttf"
   font "JetBrains Mono Italic Nerd Font Complete.ttf"
+  font "JetBrains Mono SemiBold Nerd Font Complete.ttf"
+  font "JetBrains Mono SemiBold Italic Nerd Font Complete.ttf"
   font "JetBrains Mono Thin Nerd Font Complete.ttf"
   font "JetBrains Mono Thin Italic Nerd Font Complete.ttf"
 end
