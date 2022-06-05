@@ -94,7 +94,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
 - [naiveproxy](https://github.com/klzgrad/naiveproxy)
 - [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
-- [trojan-go](https://github.com/p4gefau1t/trojan-go)
 
 </details>
 
@@ -134,6 +133,7 @@ These formulae have been removed from this tap because there are better/maintain
 - [lsix](https://github.com/hackerb9/lsix): use `homebrew/core/lsix`
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch): use `homebrew/core/neofetch`
 - [osu](https://osu.ppy.sh/): use `homebrew/cask-versions/osu-development`
+- [trojan-go](https://github.com/p4gefau1t/trojan-go): use `homebrew/core/trojan-go`
 - [vercel](https://vercel.com/): use `homebrew/core/vercel-cli`
 - [viu](https://github.com/atanunq/viu): use `homebrew/core/viu`
 - [wrangler](https://github.com/cloudflare/wrangler): use `homebrew/core/cloudflare-wrangler`
