@@ -120,8 +120,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
 
-- [viu](https://github.com/atanunq/viu)
-
 </details>
 
 <details>
@@ -137,6 +135,7 @@ These formulae have been removed from this tap because there are better/maintain
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch): use `homebrew/core/neofetch`
 - [osu](https://osu.ppy.sh/): use `homebrew/cask-versions/osu-development`
 - [vercel](https://vercel.com/): use `homebrew/core/vercel-cli`
+- [viu](https://github.com/atanunq/viu): use `homebrew/core/viu`
 - [wrangler](https://github.com/cloudflare/wrangler): use `homebrew/core/cloudflare-wrangler`
 - [youtube-dl-mod](https://youtube-dl.org/): use `kidonng/malt/yt-dlp`
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp): use `homebrew/core/yt-dlp`
