@@ -114,7 +114,6 @@ Including most tools used in [Dortania Guides](https://dortania.github.io/).
 <summary><strong>Misc</strong></summary>
 
 - [iconsur](https://github.com/rikumi/iconsur)
-- [nali](https://github.com/zu1k/nali)
 - [unsign](https://github.com/steakknife/unsign)
 
   Useful for dealing with issues like [this](https://github.com/Nyx0uf/qlImageSize#limitations).
@@ -131,6 +130,7 @@ These formulae have been removed from this tap because there are better/maintain
 - [exa-mod](https://github.com/ogham/exa): use `homebrew/core/exa`
 - [leaf](https://github.com/eycorsican/leaf): use `homebrew/core/leaf-proxy`
 - [lsix](https://github.com/hackerb9/lsix): use `homebrew/core/lsix`
+- [nali](https://github.com/zu1k/nali): use `homebrew/core/nali`
 - [neofetch-optional-deps](https://github.com/dylanaraps/neofetch): use `homebrew/core/neofetch`
 - [osu](https://osu.ppy.sh/): use `homebrew/cask-versions/osu-development`
 - [trojan-go](https://github.com/p4gefau1t/trojan-go): use `homebrew/core/trojan-go`
