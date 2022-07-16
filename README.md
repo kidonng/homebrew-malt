@@ -1,7 +1,5 @@
 # 🍺 Malt
 
-> Are you a Windows user? Check out my [Scoop](https://scoop-docs.now.sh/) bucket [**Sushi**](https://github.com/kidonng/sushi).
-
 A flavored [Homebrew](https://brew.sh/) tap, providing various kinds of applications.
 
 Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/homebrew-malt/issues/new) or make a pull request!
